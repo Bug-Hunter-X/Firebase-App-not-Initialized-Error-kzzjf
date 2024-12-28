@@ -1,0 +1,1 @@
+The Firebase SDK may throw an error if the app is not properly initialized before trying to use Firebase services. This can happen if you attempt to access a service such as Firebase Authentication or Firestore before the `initializeApp` function has completed successfully.
